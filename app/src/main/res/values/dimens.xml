@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="activity_default_padding">16dp</dimen>
+    <dimen name="touchpad_border_stroke_width">2dp</dimen>
+    <dimen name="touchpad_border_offset_x">8dp</dimen>
+    <dimen name="touchpad_border_offset_y">16dp</dimen>
+    <dimen name="touchpad_border_corner">2dp</dimen>
+    <dimen name="mouse_button_height">54dp</dimen>
+    <dimen name="mouse_buttons_margin_top">16dp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="list_item_text_margin_left">56dp</dimen>
+    <dimen name="list_item_content_padding_left">16dp</dimen>
+    <dimen name="list_item_content_padding_right">16dp</dimen>
+    <dimen name="list_item_one_line_height">48dp</dimen>
+    <dimen name="list_item_two_line_height">72dp</dimen>
+    <dimen name="list_view_padding_top">8dp</dimen>
+    <dimen name="list_view_padding_bottom">8dp</dimen>
+</resources>

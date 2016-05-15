@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="primary">#3ead56</color>-->
+    <!--<color name="primary_dark">#249643</color>-->
+    <!--<color name="primary_light">#8ade9d</color>-->
+    <!--<color name="accent">#67a7c7</color>-->
+
+    <!--<color name="primary">#25435c</color>-->
+    <!--<color name="primary_dark">#20394f</color>-->
+    <!--<color name="primary_light">#356185</color>-->
+    <!--<color name="accent">#c45c4f</color>-->
+
+    <color name="primary">#2b78a1</color>
+    <color name="primary_dark">#006282</color>
+    <color name="primary_light">#55bacf</color>
+    <color name="accent">#c26b25</color>
+
+    <color name="window_background">#ffffff</color>
+
+    <color name="primary_dark_text">#212121</color>
+    <color name="secondary_dark_text">#727272</color>
+    <color name="disabled_dark_text">#9E9E9E</color>
+
+    <color name="primary_light_text">#FFFFFF</color>
+    <color name="secondary_light_text">#B2B2B2</color>
+    <color name="disabled_light_text">#808080</color>
+
+    <color name="icons_active_dark">#757575</color>
+    <color name="icons_inactive_dark">#9E9E9E</color>
+
+    <color name="icons_active_light">#FFFFFF</color>
+    <color name="icons_inactive_light">#808080</color>
+
+    <color name="divider_dark">#dadce3</color>
+    <color name="divider_light">#1F1F1F</color>
+
+</resources>

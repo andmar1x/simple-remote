@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity_default_padding"
+                tools:context=".ui.home.mouse.MouseControlFragment">
+
+    <org.andmar1x.remote.ui.widget.TouchpadView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonsContainer"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/mouse_buttons_margin_top"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mouse_button_height"
+            android:layout_weight="1"
+            android:text="@string/left_mouse_button"
+            android:theme="@style/AppTheme.Button.Primary"/>
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mouse_button_height"
+            android:layout_weight="1"
+            android:text="@string/right_mouse_button"
+            android:theme="@style/AppTheme.Button.Primary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

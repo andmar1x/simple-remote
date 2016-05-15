@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="power_controls_icons">
+        <item>@drawable/ic_power_white</item>
+        <item>@drawable/ic_reboot_white</item>
+        <item>@drawable/ic_lock_white</item>
+    </array>
+
+    <string-array name="power_controls_titles">
+        <item>@string/power_control_power_off</item>
+        <item>@string/power_control_reboot</item>
+        <item>@string/power_control_lock</item>
+    </string-array>
+
+    <string-array name="power_controls_descriptions">
+        <item>@string/power_control_power_off_description</item>
+        <item>@string/power_control_reboot_description</item>
+        <item>@string/power_control_lock_description</item>
+    </string-array>
+
+</resources>
